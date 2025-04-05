@@ -1,0 +1,30 @@
+/* Task 1 */
+h1{
+    width: 250px;
+    height: 50px;
+    background-color: purple;
+}
+#P1{
+    width: 150px;
+    background-color: orangered;
+}
+#P2{
+    height: 300px;
+    background-color: teal;
+}
+
+/* Task 2 */
+.task-2{
+    background-color: aqua;
+    margin-top: 60px;
+}
+
+/* Task 3 */
+.task-3{
+    width: 250px;
+    background-color: teal;
+    margin: 40px;
+    padding: 15px 25px;
+    border: 5px solid black;
+    box-sizing: border-box;
+}

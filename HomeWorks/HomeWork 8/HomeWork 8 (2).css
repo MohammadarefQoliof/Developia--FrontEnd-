@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+#main{
+    width: 720px;
+    height: 440px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#card{
+    width: 350px;
+    height: 200px;
+    border-radius: 8px;
+    background-color: #833ae0;
+}
+#card2{
+    width: 350px;
+    height: 200px;
+    border-radius: 8px;
+    background-color: black;
+}
+#card3{
+    width: 350px;
+    height: 200px;
+    border-radius: 8px;
+    background-color: green;
+}
+#card4{
+    width: 350px;
+    height: 200px;
+    border-radius: 8px;
+    background-color: blue;
+}
+.sim{
+    width: 50px;
+    margin: 30px 120px 0 10px;
+}
+.card-num{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 25px;
+    padding: 0 0 2px 15px;
+    margin: 0;
+}
+.card-name{
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    margin: 0;
+    padding: 0 0 0 15px;
+}
+.card-date{
+    margin: 0;
+    color: white;
+    padding: 10px 150px 0 15px;
+    font-family: Tahoma, sans-serif;
+    /* font-size: 14px; */
+    display: inline-block;
+}
+.date{
+    font-size: 10px;
+}
+.visa{
+    width: 100px;
+    margin: 0;
+    padding: 0 0 7px 0;
+
+}
+.card-visa{
+    width: 100px;
+    margin: 0 0 10px 0;
+}

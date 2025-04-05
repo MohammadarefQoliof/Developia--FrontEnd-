@@ -1,0 +1,12 @@
+h1{
+    font-size: 20px;
+}
+h1, h2{
+    color: orangered;
+}
+p{
+    font-style: italic;
+}
+ul{
+    color: gray;
+}

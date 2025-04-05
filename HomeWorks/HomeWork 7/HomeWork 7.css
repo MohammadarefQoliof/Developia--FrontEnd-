@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Task 1 */
+#topic{
+    font-family: sans-serif;
+}
+.box{
+    margin-top: 7px;
+    font-family: sans-serif;
+}
+#box-1{
+    width: 700px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    padding: 20px 0px 0px 25px;
+}
+#box-2{
+    width: 600px;
+    height: 40px;
+    background-color: teal;
+    padding: 20px 0px 0px 25px;
+}
+#box-3{
+    width: 500px;
+    height: 40px;
+    background-color: sandybrown;
+    padding: 20px 0px 0px 25px;
+}
+#box-4{
+    width: 400px;
+    height: 40px;
+    background-color: lightskyblue;
+    padding: 20px 0px 0px 25px;
+}
+#box-5{
+    width: 300px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    padding: 20px 0px 0px 25px;
+}
+
+/* Task 2 */
+#main{
+    width: 600px;
+    height: 800px;
+    font-family: "Lato", sans-serif;
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-top: 40px;
+    /* box-sizing: border-box; */
+}
+img{
+    width: 504px;
+    height: 428px;
+    padding-left: 10px;
+}
+.pay{
+    color: #853ae0;
+    margin-left: 10px;
+}
+.pay:hover{
+    text-decoration: underline;
+}
+#creation{
+    font-size: 20px;
+}
+h1{
+    margin-bottom: 0px;
+}
+#price{
+    color: red;
+}
+a{
+    color: black;
+    margin-left: 10px;
+    font-size: 13px;
+}
+#features{
+    width: 450px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: #ebebeb;
+}
+
+/* Task 3 */
+.Topic{
+    font-weight: 900;
+    font-family: "Montserrat", sans-serif;
+}
+.paragraph{
+    border: 2px solid #80ced6;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #f0fff8;
+    font-family: "Montserrat", sans-serif;
+}
+table{
+    border: 2px solid #80ced6;
+    background-color: #f0fff8;
+    border-collapse: collapse;
+    font-family: "Montserrat", sans-serif;
+}
+td{
+    padding: 10px 40px 10px 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.topic-font{
+    font-family: "Montserrat", sans-serif;
+}
+ul{
+    border: 2px solid #80ced6;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #f0fff8;
+    font-family: "Montserrat", sans-serif;
+}
