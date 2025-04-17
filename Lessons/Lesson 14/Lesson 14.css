@@ -1,0 +1,16 @@
+#main{
+    width: 90%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+}
+#left{
+    width: 32%;
+    height: 50%;
+    background-color: teal;
+}
+#right{
+    width: 55%;
+    height: 554px;
+    background-color: red;
+}

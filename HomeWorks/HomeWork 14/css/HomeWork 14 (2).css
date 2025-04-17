@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Roboto Slab", serif;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+#topic{
+    width: 365px;
+    height: 93px;
+    font-weight: 700;
+    font-size: 60px;
+    position: absolute;
+    left: 50px;
+    top: 10px;
+}
+.text{
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    left: 50px;
+    top: 150px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.text2{
+    top: 300px;
+}
+#word{
+    position: absolute;
+    left: 400px;
+    top: 580px;
+    width: 110px;
+    font-weight: 700;
+}
+#word2{
+    font-weight: 400;
+    font-size: 12px;
+}
+#img1{
+    width: 300px;
+    position: absolute;
+    right: 200px;
+    top: 150px;
+}
+#img2{
+    width: 200px;
+    position: absolute;
+    left: 50px;
+    top: 530px;
+}
+#word3{
+    position: absolute;
+    left: 600px;
+    top: 580px;
+    width: 110px;
+    font-weight: 700;
+}
+#word4{
+    font-weight: 400;
+    font-size: 12px;
+}
+#word5{
+    position: absolute;
+    left: 800px;
+    top: 580px;
+    width: 110px;
+    font-weight: 700;
+}
+#word6{
+    font-weight: 400;
+    font-size: 12px;
+}
+
+@media screen and (min-width: 350px) and (max-width: 500px) {
+    body{
+        background-color: white;
+        font-family: "Roboto Slab", serif;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    #main{
+        width: 450px;
+        height: 630px;
+        position: relative;
+        top: 10px;
+        left: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    #topic{
+        width: max-content;
+        height: max-content;
+        font-weight: 700;
+        font-size: 24px;
+        position: absolute;
+        left: 10px;
+        top: 0;
+    }
+    .text{
+        width: 300px;
+        height: 50px;
+        position: absolute;
+        left: 10px;
+        top: 60px;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .text2{
+        top: 160px;
+    }
+    #word{
+        position: absolute;
+        top: 480px;
+        left: 10px;
+        width: 110px;
+        font-weight: 700;
+        font-size: 12px;
+    }
+    #word2{
+        font-weight: 400;
+        font-size: 10px;
+    }
+    #img1{
+        width: 200px;
+        position: absolute;
+        left: 70px;
+        bottom: 0px;
+        align-self: center;
+    }
+    #img2{
+        display: none;
+    }
+    #word3{
+        position: absolute;
+        top: 480px;
+        left: 140px;
+        width: 110px;
+        font-weight: 700;
+        font-size: 12px;
+    }
+    #word4{
+        font-weight: 400;
+        font-size: 10px;
+    }
+    #word5{
+        position: absolute;
+        top: 550px;
+        left: 10px;
+        width: 80px;
+        font-weight: 700;
+        font-size: 12px;
+    }
+    #word6{
+        font-weight: 400;
+        font-size: 10px;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 960px) {
+    body{
+        background-color: white;
+        font-family: "Roboto Slab", serif;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    #main{
+        width: 700px;
+        height: 630px;
+        position: relative;
+        top: 10px;
+        left: 0;
+    }
+    #topic{
+        width: max-content;
+        height: max-content;
+        font-weight: 700;
+        font-size: 32px;
+        position: absolute;
+        left: 10px;
+        top: 0;
+    }
+    .text{
+        width: 310px;
+        height: 50px;
+        position: absolute;
+        left: 10px;
+        top: 90px;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .text2{
+        top: 200px;
+    }
+    #word{
+        position: absolute;
+        top: 400px;
+        left: 10px;
+        width: 110px;
+        font-weight: 700;
+        font-size: 12px;
+    }
+    #word2{
+        font-weight: 400;
+        font-size: 10px;
+    }
+    #img1{
+        width: 200px;
+        position: absolute;
+        right: 0px;
+        top: 130px;
+        align-self: center;
+    }
+    #img2{
+        display: none;
+    }
+    #word3{
+        position: absolute;
+        top: 400px;
+        left: 160px;
+        width: 110px;
+        font-weight: 700;
+        font-size: 12px;
+    }
+    #word4{
+        font-weight: 400;
+        font-size: 10px;
+    }
+    #word5{
+        position: absolute;
+        top: 400px;
+        left: 310px;
+        width: 80px;
+        font-weight: 700;
+        font-size: 12px;
+    }
+    #word6{
+        font-weight: 400;
+        font-size: 10px;
+    }
+}
